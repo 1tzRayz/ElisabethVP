@@ -2,7 +2,7 @@ const { EmbedBuilder } = require('discord.js')
 const Discord = require('discord.js')
 
 module.exports = async(bot, member) => {
-        const welcMsg = `**Bienvenue !** — <@&935167007412875335>`
+        const welcMsg = `**Bienvenue !** — <@&935167007412875335> — ${member.tag}`
         const e1 = "<a:bloodp:1056612666799562893>" // serv updater : <a:bloodpotion:1056606474266234930>
         const e2 = "<:knifed:1056612664136171521>" // <:knifed:1056607169648263228>
         const e3 = "<:vlips:1056612675716649032>" // <:vamplips:1056607534909235231>
